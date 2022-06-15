@@ -7,7 +7,7 @@ This repo is a starter kit for examining QA test engineers fluent in Java tool c
 Requirements:
 - JDK
 - Maven
-- Firefox browser installed (remark to myself: we can switch the preferred one)
+- Firefox browser installed
 
 The very basic sanity that the environment is up and running:
 - `mvn clean install`
