@@ -8,9 +8,9 @@ public class UITest {
 
 	@Test
 	public void testA() {
-		WebDriverManager.firefoxdriver().setup();
-		FirefoxOptions options = new FirefoxOptions();
-		WebDriver driver = new FirefoxDriver(options);
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+		WebDriver driver = new ChromeDriver(options);
 
 		driver.get("https://admin.qa7.vocal-qa.com/");
 		System.out.println(driver.getTitle());
