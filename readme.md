@@ -9,6 +9,11 @@ Requirements:
 - Maven
 - Chrome browser installed
 
+Instructions:
+- Clone the repository
+- Create test cases as written in the code
+- Zip the project and send it via mail to eli.elgarbly@vonage.com
+
 The very basic sanity that the environment is up and running:
 - `mvn clean install`
 - `mvn test`
