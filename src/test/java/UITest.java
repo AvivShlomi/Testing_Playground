@@ -19,6 +19,7 @@ public class UITest {
 		//  Test 1: failing (negative) login -> fill username, password -> do login
 		//  Test 2: forgot password flow -> fill username -> do submit
 		//  Think about how to improve this test suite from general coding perspective (your call)
+		//  You can add tests as much as you would like.
 
 		driver.quit();
 	}
